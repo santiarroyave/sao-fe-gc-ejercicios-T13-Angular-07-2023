@@ -20,4 +20,9 @@
     - `<p>{{valor}}</p>` `ej. variable`
     - `<p>{{valor[0]}}</p>` `ej. objeto`
 
-### Pasar datos a componente padre
+### Tipos de Data Binding
+![tipos de data binding](https://github.com/santiarroyave/sao-fe-gc-ejercicios-T13-Angular-07-2023/assets/135848692/27edc7dc-9422-4fec-bdee-a7890a7c9127)
+
+## Ejercicios
+### Ejercicio 1
+![imagen](https://github.com/santiarroyave/sao-fe-gc-ejercicios-T13-Angular-07-2023/assets/135848692/53bc5d2b-d2ed-4373-8618-7f822771f754)
