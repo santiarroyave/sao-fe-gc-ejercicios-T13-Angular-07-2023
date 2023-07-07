@@ -7,32 +7,33 @@
 <!-- * * * * * * * to get started with your project! * * * * * * * * -->
 <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
 <div class="container pt-5">
-    <form action="" [formGroup]="formularioUsuario" (ngSubmit)="onSubmit()">
+    <!-- <form action=""> -->
         <div class="row justify-content-md-center">
     
             <div>
                 <h2>Alta cliente</h2>
             </div>
+            <!-- <p>ASd: <input type="text" [(ngModel)]="direccion"></p> -->
 
             <div class="mb-3">
                 <label for="" class="form-label">Nombre:</label>
-                <input type="text" class="form-control" value="" formControlName="nombre" required>
+                <input type="text" class="form-control" [(ngModel)]="nombre" required>
             </div>
         
             <div class="mb-3">
                 <label for="" class="form-label">CIF:</label>
-                <input type="text" class="form-control" formControlName="cif">
+                <input type="text" class="form-control" [(ngModel)]="cif">
             </div>
         
             <div class="mb-3">
                 <label for="" class="form-label">Dirección:</label>
-                <input type="text" class="form-control" formControlName="direccion">
+                <input type="text" class="form-control" [(ngModel)]="direccion">
             </div>
         
             <div class="mb-3">
                 <label for="" class="form-label">Grupo:</label>
                 
-                <select name="" class="form-select" formControlName="grupo">
+                <select name="" class="form-select" [(ngModel)]="grupo">
                     <option value="" selected disabled>Sin definir</option>
                     <option value="1">1</option>
                     <option value="2">2</option>
@@ -41,14 +42,18 @@
                 </select>
             </div>
             
-            <button type="submit" class="btn btn-primary">Guardar</button>
+            <button type="submit" class="btn btn-primary" (click)="addCliente()">Guardar</button>
             
         </div>
-    </form>
+    <!-- </form> -->
 
     <br>
 
-    <app-listado-clientes [formularioEnviado] = "listaDatos"></app-listado-clientes>
+    <!-- Con esto compruebe que funcione -->
+    <!-- {{clientes |json}} -->
+
+
+    <app-listado-clientes [listaCliente]="clientes"></app-listado-clientes>
 
     
     

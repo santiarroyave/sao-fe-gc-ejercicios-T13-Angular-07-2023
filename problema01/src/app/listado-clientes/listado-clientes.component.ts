@@ -7,6 +7,6 @@ import { Component, Input } from '@angular/core';
 })
 export class ListadoClientesComponent {
 
-  @Input() formularioEnviado: any;
+  @Input() listaCliente: any;
 
 }
