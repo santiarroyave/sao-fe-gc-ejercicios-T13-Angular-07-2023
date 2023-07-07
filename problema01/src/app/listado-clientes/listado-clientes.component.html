@@ -1,12 +1,20 @@
 <h2>Listado Clientes</h2>
 
 <table class="table">
+    <thead>
+        <tr>
+            <th>Nombre</th>
+            <th>CIF</th>
+            <th>Dirección</th>
+            <th>Grupo</th>
+        </tr>
+    </thead>
     <tbody>
-        <!-- <tr>
-            <td>Cliente 1</td>
-            <td>B 123</td>
-            <td>C/ la la la</td>
-            <td>1</td>
-        </tr> -->
+        <tr *ngFor="let cliente of listaCliente">
+            <td>{{cliente.nombre}}</td>
+            <td>{{cliente.cif}}</td>
+            <td>{{cliente.direccion}}</td>
+            <td>{{cliente.grupo}}</td>
+        </tr>
     </tbody>
 </table>
