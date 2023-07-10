@@ -1,1 +1,20 @@
-<p>tabla works!</p>
+<table class="table ">
+    <thead>
+        <tr>
+            <th>Código</th>
+            <th>Descripción</th>
+            <th>Precio</th>
+            <th>Borrar</th>
+            <th>Seleccionar</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let frutas of datosTabla">
+            <th>{{frutas.codigo}}</th>
+            <td>{{frutas.descripcion}}</td>
+            <td>{{frutas.precio}}</td>
+            <td><button class="btn btn-danger" (click)="borrar(frutas)">Borrar</button></td>
+            <td><button class="btn btn-primary" (click)="seleccionar(frutas)">Seleccionar</button></td>
+        </tr>
+    </tbody>
+</table>
