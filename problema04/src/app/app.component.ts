@@ -28,11 +28,13 @@ export class AppComponent {
   ];
 
   agregarTarea(tarea:any){
-    this.tareas.push({
+    this.tareas.unshift({
       titulo:tarea.titulo,
       descripcion:tarea.descripcion,
       completado:tarea.compleatado
     });
-    // console.log("Recibiendo desde el elemento padre");
   };
 }
+
+// Notas
+// - Las tareas las añade al principio
