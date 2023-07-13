@@ -14,7 +14,10 @@ export class ListaTareasComponent {
     alert("Se ha completado");
   };
   
-  eliminar(){
-    alert("Se ha eliminado");
+  eliminar(tarea:any){
+    // 1. Encontrar su posición dentro de la lista
+    let posicion = this.tareas.indexOf(tarea);
+    // 2. Borrar elemento
+    this.tareas.splice(posicion, 1);
   };
 }
