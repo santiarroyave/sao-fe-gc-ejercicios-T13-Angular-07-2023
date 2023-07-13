@@ -7,4 +7,20 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'problema04';
+
+  // JSON con tareas de ejemplo
+  tareas:any = [
+    {
+      titulo:"comida",
+      descripcion:"Mirar la receta de las croquetas"
+    },
+    {
+      titulo:"comida",
+      descripcion:"Mirar la receta de las croquetas"
+    },
+    {
+      titulo:"comida",
+      descripcion:"Mirar la receta de las croquetas"
+    }
+  ];
 }

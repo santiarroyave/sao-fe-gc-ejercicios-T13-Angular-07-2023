@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-lista-tareas',
@@ -7,4 +7,14 @@ import { Component } from '@angular/core';
 })
 export class ListaTareasComponent {
 
+  // Obtenemos el array de tareas del componente padre
+  @Input() tareas:any;
+
+  completar(){
+    alert("Se ha completado");
+  };
+  
+  eliminar(){
+    alert("Se ha eliminado");
+  };
 }

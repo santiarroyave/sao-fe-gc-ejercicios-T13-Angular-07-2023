@@ -6,6 +6,8 @@ import { AppComponent } from './app.component';
 import { ListaTareasComponent } from './lista-tareas/lista-tareas.component';
 import { FormularioTareaComponent } from './formulario-tarea/formulario-tarea.component';
 
+import { FormsModule } from '@angular/forms';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -14,7 +16,8 @@ import { FormularioTareaComponent } from './formulario-tarea/formulario-tarea.co
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
