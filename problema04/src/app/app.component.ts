@@ -12,15 +12,18 @@ export class AppComponent {
   tareas:any = [
     {
       titulo:"comida",
-      descripcion:"Mirar la receta de las croquetas"
+      descripcion:"Mirar la receta de las croquetas 1",
+      completado: false
     },
     {
       titulo:"comida",
-      descripcion:"Mirar la receta de las croquetas"
+      descripcion:"Mirar la receta de las croquetas 2",
+      completado: true
     },
     {
       titulo:"comida",
-      descripcion:"Mirar la receta de las croquetas"
+      descripcion:"Mirar la receta de las croquetas 3",
+      completado: false
     }
   ];
 }
