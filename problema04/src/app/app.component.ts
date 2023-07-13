@@ -26,4 +26,13 @@ export class AppComponent {
       completado: false
     }
   ];
+
+  agregarTarea(tarea:any){
+    this.tareas.push({
+      titulo:tarea.titulo,
+      descripcion:tarea.descripcion,
+      completado:tarea.compleatado
+    });
+    // console.log("Recibiendo desde el elemento padre");
+  };
 }

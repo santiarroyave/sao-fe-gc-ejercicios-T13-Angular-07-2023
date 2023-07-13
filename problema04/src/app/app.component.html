@@ -8,7 +8,10 @@
 <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
 
 <div class="container py-5">
-    <app-formulario-tarea></app-formulario-tarea>
+    <!-- Recibimos datos del formulario -->
+    <app-formulario-tarea (tareaNueva)="agregarTarea($event)"></app-formulario-tarea>
+    
+    <!-- Enviamos la lista al componente hijo para mostrarla -->
     <app-lista-tareas [tareas]="tareas"></app-lista-tareas>
 </div>
 
