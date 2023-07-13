@@ -1,0 +1,21 @@
+<h2>Lista de tareas</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Título</th>
+            <th>Descripción</th>
+            <th>Completar</th>
+            <th>Eliminar</th>
+        </tr>
+    </thead>
+    <tbody>
+        <!-- Leer y mostrar la lista de tareas -->
+        <tr *ngFor="let tarea of tareas" [ngClass]="{'table-success': tarea.completado}">
+            <td>{{tarea.titulo}}</td>
+            <td>{{tarea.descripcion}}</td>
+            <td><button class="btn btn-success" (click)="completar(tarea)"><i class="bi bi-check-lg"></i></button></td>
+            <td><button class="btn btn-danger" (click)="eliminar(tarea)">Eliminar</button></td>
+        </tr>
+    </tbody>
+</table>

@@ -1,0 +1,12 @@
+
+<h2>Agregar tarea</h2>
+<div class="row mb-5">
+    <div class="col col-12 col-md-9 mb-4 mb-md-0">
+        <input class="form-control form-control-lg" type="text" placeholder="Título" [(ngModel)]="titulo">
+        <br>
+        <textarea class="form-control" rows="3" placeholder="Descripción" [(ngModel)]="descripcion"></textarea>
+    </div>
+    <div class="col col-12 col-md-3 d-grid d-md-block">
+        <button class="btn btn-primary" (click)="agregarTarea()">Agregar tarea</button>
+    </div>
+</div>
