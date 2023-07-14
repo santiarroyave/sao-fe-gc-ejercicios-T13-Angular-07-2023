@@ -32,3 +32,7 @@
 
 ### Ejercicio 3
 ![imagen](https://github.com/santiarroyave/sao-fe-gc-ejercicios-T13-Angular-07-2023/assets/135848692/69fc8124-1ab3-46af-bf8d-b754cbbd91be)
+
+### Ejercicio 4
+![imagen](https://github.com/santiarroyave/sao-fe-gc-ejercicios-T13-Angular-07-2023/assets/135848692/45e8c85b-4360-4fea-9b1b-eb0869e5b92f)
+
