@@ -20,6 +20,23 @@
     - `<p>{{valor}}</p>` `ej. variable`
     - `<p>{{valor[0]}}</p>` `ej. objeto`
 
+### Pasar datos a componente padre
+1. En el componente hijo (*.component.ts): Importar clases necesarias
+    - `import { Output, EventEmitter } from '@angular/core';`
+2. En el componente hijo (*.component.ts): Crear e inicializar variable Output
+    - `@Output() tareaNueva:any = new EventEmitter();`
+3. En el componente hijo (*.component.ts): Agregar los datos a la variable usando el metodo "emit()"
+    - `this.tareaNueva.emit("¡Hola Mundo!")`
+4. En el componente padre (*.component.html): Recibir los datos
+    - `<app (tareaNueva)="agregarTarea($event)"></app>`
+5. En el componente padre (*.component.ts): Manipular los datos recibidos desde la funcion deseada
+    - `agregarTarea(nuevoDato:any){...}`
+    - `imports: [..., FormsModule]`
+
+### Otras importaciones de interés
+- Para pasar datos de un formulario a una variable usando [(ngModel)] importar FormsModule en el archivo (app.module.ts)
+    - `import { FormsModule } from '@angular/forms';`
+
 ### Tipos de Data Binding
 ![tipos de data binding](https://github.com/santiarroyave/sao-fe-gc-ejercicios-T13-Angular-07-2023/assets/135848692/27edc7dc-9422-4fec-bdee-a7890a7c9127)
 
