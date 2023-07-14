@@ -31,11 +31,11 @@
     - `<app (tareaNueva)="agregarTarea($event)"></app>`
 5. En el componente padre (*.component.ts): Manipular los datos recibidos desde la funcion deseada
     - `agregarTarea(nuevoDato:any){...}`
-    - `imports: [..., FormsModule]`
 
 ### Otras importaciones de interés
-- Para pasar datos de un formulario a una variable usando [(ngModel)] importar FormsModule en el archivo (app.module.ts)
+- Para pasar datos de un formulario a una variable usando [(ngModel)] importar en el archivo (app.module.ts)
     - `import { FormsModule } from '@angular/forms';`
+    - `imports: [..., FormsModule]`
 
 ### Tipos de Data Binding
 ![tipos de data binding](https://github.com/santiarroyave/sao-fe-gc-ejercicios-T13-Angular-07-2023/assets/135848692/27edc7dc-9422-4fec-bdee-a7890a7c9127)
