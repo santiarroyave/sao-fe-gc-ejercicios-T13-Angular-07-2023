@@ -42,14 +42,18 @@
 
 ## Ejercicios
 ### Ejercicio 1
+[Ver web](https://main.d2c4boz30j7bgp.amplifyapp.com/)
 ![imagen](https://github.com/santiarroyave/sao-fe-gc-ejercicios-T13-Angular-07-2023/assets/135848692/53bc5d2b-d2ed-4373-8618-7f822771f754)
 
 ### Ejercicio 2
+[Ver web](https://main.d2d054m1ju5qmd.amplifyapp.com/)
 ![imagen](https://github.com/santiarroyave/sao-fe-gc-ejercicios-T13-Angular-07-2023/assets/135848692/faca97c1-f7a6-4cc9-a2c1-b3d9afcd61b9)
 
 ### Ejercicio 3
+[Ver web](https://main.d19ngalbsstzes.amplifyapp.com/)
 ![imagen](https://github.com/santiarroyave/sao-fe-gc-ejercicios-T13-Angular-07-2023/assets/135848692/69fc8124-1ab3-46af-bf8d-b754cbbd91be)
 
 ### Ejercicio 4
+[Ver web](about:blank)
 ![imagen](https://github.com/santiarroyave/sao-fe-gc-ejercicios-T13-Angular-07-2023/assets/135848692/45e8c85b-4360-4fea-9b1b-eb0869e5b92f)
 
